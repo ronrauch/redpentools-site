@@ -442,3 +442,11 @@ section { padding: 28px 0; }
 }
 .app-title strong { display: block; font-size: 1.2rem; letter-spacing: -0.01em; }
 .app-title span { display: block; color: var(--muted); font-size: 15px; }
+
+/* Official Apple "Download on the Mac App Store" badge: black on light, white on dark (via <picture>) */
+.store-badge{display:inline-block;line-height:0;border-radius:8px}
+.store-badge img{height:40px;width:auto;display:block}
+.store-badge-row{display:flex;flex-wrap:wrap;align-items:center;gap:12px;margin-top:12px}
+.card .store-badge{margin-top:12px}
+.store-list .store-badge{vertical-align:middle;margin-left:6px}
+.store-list .store-badge img{height:32px}
