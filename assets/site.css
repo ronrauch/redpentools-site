@@ -450,3 +450,13 @@ section { padding: 28px 0; }
 .card .store-badge{margin-top:12px}
 .store-list .store-badge{vertical-align:middle;margin-left:6px}
 .store-list .store-badge img{height:32px}
+
+/* Red Pen Tools 2.0 screenshots: hero window + gallery */
+.hero-shot{width:100%;height:auto;margin-top:20px;border-radius:12px;border:1px solid var(--border);box-shadow:0 24px 60px rgba(0,0,0,.35)}
+.shots-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px;margin-top:16px}
+.shots-grid figure,.shots-devices figure{margin:0}
+.shots-grid img,.shots-devices img{width:100%;height:auto;display:block;border-radius:10px;border:1px solid var(--border)}
+.shots-grid figcaption,.shots-devices figcaption{font-size:14px;color:var(--muted,#8a8f98);margin-top:8px}
+.shots-devices{display:grid;grid-template-columns:1fr 1fr 1.6fr;gap:20px;align-items:end;margin-top:28px}
+.shots-devices img{border-radius:22px}
+@media (max-width:720px){.shots-grid{grid-template-columns:1fr}.shots-devices{grid-template-columns:1fr 1fr}.shots-devices figure:last-child{grid-column:1/-1}}
